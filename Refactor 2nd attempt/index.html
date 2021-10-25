@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>RepairIt</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+      <section class="fixmeapp">
+        <header class="header">
+          <h1>rep🔥irs</h1>
+          <form>
+            <input class="new-repair" placeholder="What needs to be repaired?" autofocus="">
+          </form>
+        </header>
+        <section class="main">       
+          <ul class="repair-list">
+          <li data-id="2" class="">
+            <div class="view">
+              <input class="toggle" type="checkbox">
+              <label>Car makes a funny sound</label>
+              <button class="destroy"></button>
+            </div>
+          </li>
+          <li data-id="1" class="completed">
+            <div class="view">
+              <input class="toggle" type="checkbox" checked="">
+              <label>Kitchen Faucet is leaky</label>
+              <button class="destroy"></button>
+            </div>
+          </li>
+          <li data-id="0" class="">
+            <div class="view">
+              <input class="toggle" type="checkbox">
+              <label>The vents are plugged</label>
+              <button class="destroy"></button>
+            </div>
+          </li></ul>
+        </section>
+        <footer class="footer">     
+          <button class="clear-completed">Clear completed</button>
+        </footer>
+      </section>   
+  </body>
+</html>
